@@ -32,8 +32,8 @@ public class HomePage extends Base  {
         lp.pass().sendKeys("sdsd");;
 		lp.login().click();
 		System.out.println(ApachePoi.apacheTest());
-		System.out.println(ApachePoi.apacheTest());
-		System.out.println(ApachePoi.apacheTest());
+		System.out.println("hello");
+		System.out.println("hi");
 //        Loginpagetest lp1=new Loginpagetest(driver);
 //		
 //		lp1.user().sendKeys(uss);
