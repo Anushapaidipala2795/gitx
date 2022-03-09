@@ -29,11 +29,12 @@ public class HomePage extends Base  {
 		Loginpagetest lp=new Loginpagetest(driver);
 		lp.user().sendKeys("dsfsfs");
         System.out.println(DataBase.connection());
+        System.out.println(DataBase.connection());
+        System.out.println(DataBase.connection());
         lp.pass().sendKeys("sdsd");;
 		lp.login().click();
 		System.out.println(ApachePoi.apacheTest());
-		System.out.println(ApachePoi.apacheTest());
-		System.out.println(ApachePoi.apacheTest());
+		
 //        Loginpagetest lp1=new Loginpagetest(driver);
 //		
 //		lp1.user().sendKeys(uss);
