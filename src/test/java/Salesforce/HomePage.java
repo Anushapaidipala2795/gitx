@@ -33,6 +33,12 @@ public class HomePage extends Base  {
 		lp.login().click();
 		System.out.println(ApachePoi.apacheTest());
 		System.out.println("hello");
+
+		System.out.println("hi");
+
+		System.out.println("this from alpha");
+		System.out.println("successfully implemented in master ranch");
+
 		
 //        Loginpagetest lp1=new Loginpagetest(driver);
 //		
